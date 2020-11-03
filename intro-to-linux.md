@@ -1,25 +1,25 @@
 # Intro to Linux
 ## Some Linux Commands
-- `ssh <user>@<host>` used to ssh into a machine and remotely run commands interactively.
-- `echo` used to print text to screen.
-- `man <command>` used to show a manual about the command, some commands have `--help` or `-h` flags.
-- `ls [-la] [dir]` used to list every file/directory in the directory.
-- `cat [-n] file` used outputs the contents of files to the console. (`-n` to output number of lines).
-- `touch file` used to creates files.
-- `su user` used to switch between users. (`su` is equivalent to `su root`).
+- `ssh <user>@<host>`: used to ssh into a machine and remotely run commands interactively.
+- `echo`: used to print text to screen.
+- `man <command>`: used to show a manual about the command, some commands have `--help` or `-h` flags.
+- `ls [-la] [dir]`: used to list every file/directory in the directory.
+- `cat [-n] file`: used outputs the contents of files to the console. (`-n` to output number of lines).
+- `touch file`: used to creates files.
+- `su user`: used to switch between users. (`su` is equivalent to `su root`).
 - Operations:
 	* `>`: redirect the output of any command to a file.
 	* `>>`: appends the output of a command to a file, instead of erasing it.
-	* `&&`: allows you to execute a second command after the first one has executed *successfully*.
-	* `&`:  unlike `&&`, `&` has nothing to do. `&` is a background operator.
+	* `&&`: allows you to execute a second command after the first one has executed **successfully**.
+	* `&`:  unlike `&&`, `&` has nothing to do "and". `&` is a background operator.
 	* `$`: is an unusually special operator, as it is used to denote environment variables.
-	* `|`: the | operator allows you to take the output of a command and use it as input for a second command.
-	* `;`: The `;` operator works like `&&`, however it *does not* require the first command to execute successfully.
+	* `|`: the `|` operator allows you to take the output of a command and use it as input for a second command.
+	* `;`: The `;` operator works like `&&`, however it **does not** require the first command to execute successfully.
 ---
 - `chmod <permissions> <file>`: chmod allows you to set the different permissions for a file, and control who can read it.
 
 |Digit|Meaning                                        |
-|-----|-----------------------------------------------|
+|:---:|:---------------------------------------------:|
 |1    |That file can be executed                      |
 |2    |That file can be written to                    |
 |3    |That file can be executed and written to       |
@@ -30,15 +30,16 @@
 
 - `chmod uge file`: (u=user; g=group; e=everyone) e.g. `chmod 764 file`.
 ---
-- `chown user file` or `chown user:group file`: allows us to change the user and group for any file.
+- `chown user file` or `chown user:group file`: allows us to change the file owner and/or group.
 - `rm [-r]`: used to delete files or with `-r` directories.
 - `mv <file> <destination>`:
 	* Allows you to move files from one place to another.
 	* Or rename it `mv ~/file ~/ghfds`.
+	* We don't need `-r` to move directroies.
 - `cp [-r] <file> <destination>`:
 	* Allows you to copy files from one place to another.
 	* `-r` to copy directories.
-- `pwd`: shows the location of the current/working directory.
+- `pwd`: shows the current/working directory.
 - `cd <directory>`: change location to that directory.
 - `mkdir <directory name>`: makes a directory.
 - `ln`: used to make links
@@ -87,12 +88,12 @@ Everything on the linux file system extends from "/". / is the equivalent of C: 
 - **/etc/shadow** - Has all the passwords of these users.
 - **/tmp** - Every file inside it gets deleted upon shutdown - used for temporary files.
 - **/etc/sudoers** - Used to control the sudo permissions of every user on the system.
-- **/home** - The directory where all your downloads, documents etc are. - The equivalent on Windows is *C:\Users\<user>*.
-- **/root** - The root user's home directory - The equivilent on Windows is *C:\Users\Administrator*.
+- **/home** - The directory where all your downloads, documents etc are. - The equivalent on Windows is **C:\Users\\\<user>**.
+- **/root** - The root user's home directory - The equivilent on Windows is **C:\\Users\\Administrator**.
 - **/usr** - Where all your software is installed.
 - **/bin** and **/sbin** - Used for system critical files - **DO NOT DELETE**.
 - **/var** - The Linux miscellaneous directory, a myriad of processes store data in **/var**.
-- **$PATH** - Stores all the binaries you're able to run - same as *%PATH%* on Windows.
+- **$PATH** - Stores all the binaries you're able to run - same as **%PATH%** on Windows.
 
 ## Installing Packages
 - `sudo apt install package`: to install a package.
@@ -115,4 +116,4 @@ Everything on the linux file system extends from "/". / is the equivalent of C: 
 - Pressing **Ctrl+R** opens a search prompt to search through previous commands.
 - Pressing **Ctrl+C** to exit a running program.
 - Pressing **Tab** for tab completion.
-
+- We can use `man ascii` to get a table showing the ascii characters with their hex and decimal values.
