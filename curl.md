@@ -1,4 +1,4 @@
-# curl tips
+# cURL Cheatsheet
 
 ## Common Options
 
@@ -93,3 +93,6 @@ with a data file:
 
 ## SET Cookies
 `curl --cookie "key=value" URL` or `curl -b "key=value" URL`
+
+---
+Credit: The `Common Options` Section is from [subfuzion](https://gist.github.com/subfuzion) / [curl.md](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58)
