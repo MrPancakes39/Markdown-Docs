@@ -1,6 +1,6 @@
-|Windows App              |Cross-Platform App                                                                                                                     |
+|Windows App              |Linux Alternative App                                                                                                                  |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-|Microsoft Office         |[ONLYOFFICE](https://www.onlyoffice.com/)<br>[SoftMaker FreeOffice](https://www.freeoffice.com/)                                       |
+|Microsoft Office         |[SoftMaker FreeOffice](https://www.freeoffice.com/)<br>[WPS Office](https://www.wps.com/)                                              |
 |Microsoft Outlook        |[Mailspring](https://getmailspring.com/)                                                                                               |
 |Adobe Acrobat            |[Evince Document Viewer](https://wiki.gnome.org/Apps/Evince/)                                                                          |
 |Remote Desktop           |[Remmina](https://remmina.org/)                                                                                                        |
@@ -10,7 +10,8 @@
 |SOLIDWORKS               |[FreeCAD](https://www.freecadweb.org/)                                                                                                 |
 |Adobe Photoshop          |[GNU Image Manipulation Program](https://www.gimp.org/)                                                                                |
 |Paint.NET                |[Pinta](https://www.pinta-project.com/)                                                                                                |
-|MS Paint XP              |[KolourPaint](http://kolourpaint.org/)                                                                                                 |
+|MS Notepad / Notepad++   |[Xed](https://en.wikipedia.org/wiki/Xed)<br>[FeatherPad](https://en.wikipedia.org/wiki/FeatherPad)                                     |
+|MS Paint XP              |[Drawing](https://maoschanz.github.io/drawing/)<br>[KolourPaint](http://kolourpaint.org/)                                              |
 |MS Paint Modern          |[MyPaint](http://mypaint.org/)                                                                                                         |
 |Adobe InDesign           |[Scribus](https://www.scribus.net/)                                                                                                    |
 |Adobe Illustrator        |[Inkscape](https://inkscape.org/)                                                                                                      |
