@@ -1,8 +1,10 @@
 |Windows App              |Linux Alternative App                                                                                                                  |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-|Microsoft Office         |[SoftMaker FreeOffice](https://www.freeoffice.com/)<br>[WPS Office](https://www.wps.com/)                                              |
-|Microsoft Outlook        |[Mailspring](https://getmailspring.com/)                                                                                               |
-|Adobe Acrobat            |[Evince Document Viewer](https://wiki.gnome.org/Apps/Evince/)                                                                          |
+|Microsoft Office         |[SoftMaker FreeOffice](https://www.freeoffice.com/)<br>[LibreOffice](https://www.libreoffice.org/)                                     |
+|Microsoft Outlook        |[Mailspring](https://getmailspring.com/)<br>[Geary](https://wiki.gnome.org/Apps/Geary)                                                 |
+|Adobe Acrobat Reader|[Evince Document Viewer](https://wiki.gnome.org/Apps/Evince/)<br>[Foxit Reader (Not Open-Source)](https://www.foxitsoftware.com/pdf-reader/)|
+|Adobe Acrobat Pro  |[Qoppa PDF Studio (Not FOSS)](https://www.qoppa.com/pdfstudio/)<br>[Master PDF Editor (Not FOSS)](https://code-industry.net/masterpdfeditor/)|
+|Lightshot                |[Flameshot](https://flameshot.org/)                                                                                                    |
 |Remote Desktop           |[Remmina](https://remmina.org/)                                                                                                        |
 |Microsoft Hyper-V        |[VirtualBox](https://www.virtualbox.org/)                                                                                              |
 |Microsoft Your Phone     |[KDE Connect](https://kdeconnect.kde.org/)<br>[Zorin Connect](https://play.google.com/store/apps/details?id=com.zorinos.zorin_connect/)|
