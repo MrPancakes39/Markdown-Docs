@@ -2,8 +2,8 @@
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 |Microsoft Office         |[SoftMaker FreeOffice](https://www.freeoffice.com/)<br>[LibreOffice](https://www.libreoffice.org/)                                     |
 |Microsoft Outlook        |[Mailspring](https://getmailspring.com/)<br>[Geary](https://wiki.gnome.org/Apps/Geary)                                                 |
-|Adobe Acrobat Reader|[Evince Document Viewer](https://wiki.gnome.org/Apps/Evince/)<br>[Foxit Reader (Not Open-Source)](https://www.foxitsoftware.com/pdf-reader/)|
-|Adobe Acrobat Pro  |[Qoppa PDF Studio (Not FOSS)](https://www.qoppa.com/pdfstudio/)<br>[Master PDF Editor (Not FOSS)](https://code-industry.net/masterpdfeditor/)|
+|Adobe Acrobat Reader     |[Okular](https://okular.kde.org/)<br>[Evince Document Viewer](https://wiki.gnome.org/Apps/Evince/)                                     |
+|Adobe Acrobat Pro        |[Master PDF Editor 4 (Not Open-Source)](https://cutt.ly/Pjm26pe)<br>[Qoppa PDF Studio (Not FOSS)](https://www.qoppa.com/pdfstudio/)    |
 |Lightshot                |[Flameshot](https://flameshot.org/)                                                                                                    |
 |Remote Desktop           |[Remmina](https://remmina.org/)                                                                                                        |
 |Microsoft Hyper-V        |[VirtualBox](https://www.virtualbox.org/)                                                                                              |
